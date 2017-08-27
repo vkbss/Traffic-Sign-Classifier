@@ -1,4 +1,4 @@
-## Build a Traffic Sign Recognition Project**
+## Build a Traffic Sign Recognition Project
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -14,11 +14,11 @@ The goals / steps of this project are the following:
 [image1]: ./readme_images/train_imgs_visualization.png "Visualization"
 [image2]: ./readme_images/Sign_type_bar_chart.png "Sign counts"
 [image3]: ./readme_images/visualization_featureMaps.png "Feature Map"
-[image4]: ./test_images_resized/120_limit.jpg "Traffic Sign 1"
-[image5]: ./test_images_resized/70_limit.jpg "Traffic Sign 2"
-[image6]: ./test_images_resized/No_entry.jpg "Traffic Sign 3"
-[image7]: ./test_images_resized/Yield.jpg "Traffic Sign 4"
-[image8]: ./test_images_resized/stop.jpg "Traffic Sign 5"
+[image4]: ./test_images/120_limit.jpg "Traffic Sign 1"
+[image5]: ./test_images/70_limit.jpg "Traffic Sign 2"
+[image6]: ./test_images/No_entry.jpg "Traffic Sign 3"
+[image7]: ./test_images/Yield.jpg "Traffic Sign 4"
+[image8]: ./test_images/stop.jpg "Traffic Sign 5"
 
 ### Data Set Summary & Exploration
 
@@ -103,12 +103,15 @@ Model architecure chosen approach:
 
 ### Evaluate The Model
 
-#### 1. Downloaded 5 german traffic signs on google images.
+#### 1. Downloaded 5 German traffic signs on google images.
 
 Here are five German traffic signs that I found on the web:
 
-![120 KM/h Speed Limit][image4] ![70 KM/h Speed Limit][image5] ![No Entry][image6] 
-![STOP Sign][image7] ![Yield][image8]
+![120 KM/h Speed Limit][image4] 
+![70 KM/h Speed Limit][image5] 
+![No Entry][image6] 
+![STOP Sign][image7]  
+![Yield][image8] 
 
 Here are the results of the prediction:
 
