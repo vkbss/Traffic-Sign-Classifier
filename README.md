@@ -1,4 +1,4 @@
-**Build a Traffic Sign Recognition Project**
+## Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -84,7 +84,7 @@ To train the model, I used an following optimizer and parameters:
 | Learning Rate         | 0.001                                                                 |
 
 
-#### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+#### 4. Approach to a solution
 
 My final model results were:
 
@@ -126,9 +126,7 @@ Comparing to test data set accuracy 93.2%, this is relatively low. The probelms 
 a. Model doesn't have a strong ability to recognize the numbers in traffic signs
 b. Image background, angles, traffic sign position in the image are quite different from training data set.
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+#### 3. Prediction probabilities
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
