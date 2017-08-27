@@ -99,7 +99,12 @@ Model architecure chosen approach:
 3. Since this data set has 43 classes which large than MINIST 10 types, i increased neuro number at each layers. After 200 epochs at learning rate 0.001, the valiation accuracy went up to 95% after epochs 30. Then drop down to 93.5%.
 4. So it's probablly overfitting, then another dropout=0.6 is added to second convoluation layer. And decrease epochs to 40.
 5. Finally, the validation accuracy is 94.7% and test accuracy is 93.2%.
- 
+
+Why Choose LeNet as the initial architecture:
+1. LeNet is proved to have an accruacy of 99% for MINIST
+2. LeNet's layers has the ability to recoginize handwriting shapes and edges. This is similiar to traffic sign classification.
+To recognize traffic signs, the shape and edges are core factors.
+So choosing LeNet as an initial architecture and then finetuning the architecture works well for this project.
 
 ### Evaluate The Model
 
